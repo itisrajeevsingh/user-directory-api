@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Directory (API)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>👥 User Directory</h1>
+
+    <input 
+      type="text" 
+      id="searchInput" 
+      placeholder="Search users by name or email..."
+      class="search-input"
+    />
+
+    <p id="loading" class="loading">Loading users...</p>
+    <p id="error" class="error"></p>
+
+    <div id="userContainer" class="user-container"></div>
+
+    <div class="pagination">
+        <button id="prevBtn">Previous</button>
+        <span id="pageInfo"></span>
+        <button id="nextBtn">Next</button>
+      </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
