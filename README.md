@@ -152,4 +152,3 @@ Frontend Developer
 ## 🏗 Project Structure
 
 
-Endpoint used:
